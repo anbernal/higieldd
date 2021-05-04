@@ -124,21 +124,24 @@
                                                 <div class="contact-single">
                                                     <i class="icofont-headphone-alt-3"></i>
                                                     <h4>Phone</h4>
-                                                    <p>(11) 9 4655-5687</p>
+                                                    <span style="color: #878c8f;">(11) 2684 1344     </br></span>
+                                                    <span style="color: #878c8f;">(11) 9 47243297-Whats</br></span>
+                                                    <span style="color: #878c8f;">(11) 9 47243296-Whats</span>
                                                 </div>
                                             </div>
                                             <div class="col-lg-4">
                                                 <div class="contact-single">
                                                     <i class="icofont-location-pin"></i>
                                                     <h4>Endere&ccedil;o</h4>
-                                                    <p>New York, USA</p>
+                                                    <p>     </p>
+                                                    <p>R. Aldeia Paracanti, 39 Vila R&eacute; - S&atilde;o Paulo/SP</p>
                                                 </div>
                                             </div>
                                             <div class="col-lg-4">
                                                 <div class="contact-single">
                                                     <i class="icofont-email"></i>
                                                     <h4>E-mail</h4>
-                                                    <p>support24@gmail.com</p>
+                                                    <p>contato@higieldd.com</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -156,23 +159,23 @@
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-xl-8">
-                                    <form class="contact-form">
+                                    <form class="contact-form" action="assets/contact.php" method="post">
                                         <h2>Estamos aqui para ajud&aacute;-lo. Se voc&ecirc; tem alguma d&uacute;vida, entre em contato conosco!</h2>
                                         <div class="row">
                                             <div class="col-md-6">
-                                                <input type="text" placeholder="Nome" />
+                                                <input name="name" type="text" placeholder="Nome" />
                                             </div>
                                             <div class="col-md-6">
-                                                <input type="text" placeholder="E-mail" />
+                                                <input name="email" type="text" placeholder="E-mail" />
                                             </div>
                                             <div class="col-md-6">
-                                                <input type="text" placeholder="Telefone" />
+                                                <input name="telefone" type="text" placeholder="Telefone" />
                                             </div>
                                             <div class="col-md-6">
-                                                <input type="text" placeholder="Assunto" />
+                                                <input name="assunto" type="text" placeholder="Assunto" />
                                             </div>
                                             <div class="col-12">
-                                                <textarea placeholder="Mensagem"></textarea>
+                                                <textarea name="message" placeholder="Mensagem"></textarea>
                                             </div>
                                             <div class="col-12 text-center">
                                                 <button type="submit" class="theme-btn">Enviar <i class="icofont-double-right"></i></button>
@@ -211,27 +214,31 @@
                                     <div class="footer-contact">
                                         <p>
                                             <i class="icofont-location-pin"></i>
-                                            <span>622 Dixie Path , South obinches, UT 98336</span>
+                                            <span style="display: contents;"> 
+                                                R. Aldeia Paracanti, 39
+                                            Vila R&eacute; - S&atilde;o Paulo/SP</span>
                                         </p>
                                         <p>
                                             <i class="icofont-ui-call"></i>
-                                            <span>(11) 9 4569-6985</span>
+                                            <span style="display: contents;">(11) 2684 1344     </br></span>
+                                            <span style="display: contents;">(11) 9 47243297-Whats</span>
+                                            <span style="display: contents;">(11) 9 47243296-Whats</span>
                                         </p>
                                         <p>
                                             <i class="icofont-email"></i>
-                                            <span>support24@gmail.com</span>
+                                            <span>contato@higieldd.com</span>
                                         </p>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-xl-2 col-lg-3 col-md-6 pr-xl-0">
                                 <div class="footer-col">
-                                    <h2>Casos Recentes</h2>
+                                    <h2>Casos </h2>
                                     <ul>
-                                        <li><a href="#">Survillance</a></li>
-                                        <li><a href="#">Door System</a></li>
-                                        <li><a href="#">Maintenance</a></li>
-                                        <li><a href="#">Integration</a></li>
+                                        <li><a href="#">Entupimento</a></li>
+                                        <li><a href="#">Fossa S&eacute;ptica</a></li>
+                                        <li><a href="#">Rede esgoto</a></li>
+                                        <li><a href="#">Pias e tanques</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -277,5 +284,7 @@
         <script src="assets/js/owl.carousel.js"></script>
         <script src="assets/js/wow.min.js"></script>
         <script src="assets/js/main.js"></script>
+        <!--====== Ajax Contact js ======-->
+        <script src="assets/js/ajax-contact.js"></script>
     </body>
 </html>
