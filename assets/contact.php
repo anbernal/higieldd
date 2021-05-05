@@ -25,7 +25,7 @@
 						<body style='font-size: 18px;'>
 							<h2>". $assunto . "</h2>
 							<p><span style='font-weight: bold;'>Nome: </span>". $name . "</p>
-							<p><span style='font-weight: bold;'>Nome: </span>". $telefone . "</p>
+							<p><span style='font-weight: bold;'>Telefone: </span>". $telefone . "</p>
 							<p><span style='font-weight: bold;'>E-mail: </span>". $senderEmail . "</p>
 							<p><span style='font-weight: bold;'>Mensagem: </span> <br>" . $messageForm . "</p>
 						</body>
