@@ -514,8 +514,8 @@ figure img {
 }
 
 .slider-content > h2 {
-    font-size: 70px;
-    line-height: 110px;
+    font-size: 60px;
+    line-height: 65px;
     font-weight: 700;
     color: #fff;
 }
@@ -2391,3 +2391,8 @@ footer {
     End Footer Secion CSS
 ====================================================================
  ***/
+
+
+ .whatsappIcon {
+    max-width: 11% !important;
+ }
