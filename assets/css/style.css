@@ -2396,3 +2396,7 @@ footer {
  .whatsappIcon {
     max-width: 11% !important;
  }
+
+ .whatsappIconContato {
+    max-width: 30% !important;
+ }
